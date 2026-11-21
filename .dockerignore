@@ -1,0 +1,18 @@
+# Reinstalado no build (e o binário nativo do Windows quebraria na imagem).
+node_modules
+
+# Segredos vêm das Variables do Railway, nunca embutidos numa camada da imagem.
+.env
+
+# Banco local e artefatos de execução — em produção é o volume em /data.
+data
+*.sqlite
+*.sqlite-journal
+*.db
+npm-debug.log*
+*.log
+
+# Não fazem parte do serviço em produção.
+test
+.eslintrc*
+eslint.config.*
