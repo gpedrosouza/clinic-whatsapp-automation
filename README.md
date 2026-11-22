@@ -27,7 +27,7 @@ Esta é a versão pública do projeto. Os dados do cliente, as credenciais e a d
 
 ## Stack
 
-Node.js 20+ · Express 5 · better-sqlite3 · node-cron · Luxon · Axios · `node:test` · ESLint · Docker (deploy no Railway)
+Node.js 22+ · Express 5 · better-sqlite3 · node-cron · Luxon · Axios · `node:test` · ESLint · Docker (deploy no Railway)
 
 ## Arquitetura
 
